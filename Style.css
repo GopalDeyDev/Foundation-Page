@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F2C6BD;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 80px;  
+}
+
+.logo {
+    display: flex;
+    margin-top: 16px;
+}
+
+.logo p {
+    margin-top: 10px;
+    padding-left: 6px;
+}
+
+p span {
+    font-size: large;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    line-height: 80px;
+    gap: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+}
+.nav li a:hover{
+    text-decoration: underline;
+}
+
+.nav li:last-child a {
+
+    padding:0px 15px;
+    padding-top:8px;
+    padding-bottom: 8px;
+    color: rgb(255, 255, 255);
+    background-color: #3243C7;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.nav li:last-child a:hover{
+    background-color: white;
+    color: #3243C7;
+}
+
+.bx {
+    position: relative;
+    top: 2px;
+}
+.mid{
+    display: flex;
+    margin: 0px 80px;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.text {
+width: 50%;
+/* border: 2px solid red; */
+}
+.text span{
+    font-size: 4.5em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text p{
+    width: 342px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 400;
+}
+button{
+    padding: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.btn1{
+background-color: #3243C7;
+border: none;
+color: aliceblue;
+cursor: pointer;
+padding-left: 13px;
+padding-right: 13px;
+}
+.btn2{
+    background-color: aliceblue;
+    border: none;
+    color: #001eff;
+    cursor: pointer;
+    padding-left: 13px;
+padding-right: 13px;
+}
+.btn1:hover{
+    background-color: #0519af;
+}
+.btn2:hover{
+    background-color: rgb(240, 240, 240);
+}
